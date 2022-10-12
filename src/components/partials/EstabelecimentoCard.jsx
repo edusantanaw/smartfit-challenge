@@ -51,7 +51,7 @@ export default function Estab({
         </li>
         <li>
           {locker === "partial" ? (
-            <img src={lockPartial} />
+            <img src={lockPartial} alt= "lock" />
           ) : locker === "closed" ? (
             <img src={lock} alt="lock" />
           ) : (
